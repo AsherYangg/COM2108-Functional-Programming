@@ -1,0 +1,2 @@
+--Q: Express the comprehension [f x | x <- xs, p x] using the functions map and filter.
+--A : map f (filiter p xs)
