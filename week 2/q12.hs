@@ -4,4 +4,4 @@ luhnDouble x | x * 2 > 9  = x * 2 - 9
 
 luhn :: Int -> Int -> Int -> Int -> Bool
 luhn n1 n2 n3 n4 = total `mod` 10 == 0
-    where total = luhnDouble n1 + luhnDouble n2 + luhnDouble n3 + luhnDouble n4
+    where total = luhnDouble n1 +  n2 + luhnDouble n3 +  n4
